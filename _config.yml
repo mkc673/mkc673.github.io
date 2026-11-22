@@ -1,16 +1,8 @@
 title:              Matt's Blog
-email:              ""
 description:        Personal blog and notes
-author:             mkc673
+author:             Matt
 baseurl:            ""
 url:                "https://mkc673.github.io"
-
-# Social Profiles
-twitter_username:   ""
-github_username:    mkc673
-facebook_username:  ""
-instagram_username: ""
-linkedin_username:  ""
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   ""

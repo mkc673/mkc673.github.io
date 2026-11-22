@@ -9,7 +9,7 @@ Personal blog and website built with [Jekyll](https://jekyllrb.com/) using the [
 - `index.html` — Home page (displays hero masthead and recent posts).
 - `posts/index.html` — Paginated archive of all blog posts (`/posts/`).
 - `about.html` — About page (`/about`).
-- `contact.html` — Contact page (`/contact`).
+- `_includes/` — Custom navbar and footer overrides.
 - `img/` — Header background images for pages and posts.
 - `404.html` — Custom 404 error page.
 
