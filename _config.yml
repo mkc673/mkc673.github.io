@@ -1,21 +1,31 @@
-title: Matt's Blog
-author: mkc673
-email: ""
-description: >-
-  Personal blog and notes built with Jekyll and hosted on GitHub Pages.
+title:              Matt's Blog
+email:              ""
+description:        Personal blog and notes
+author:             mkc673
+baseurl:            ""
+url:                "https://mkc673.github.io"
 
-# GitHub Pages settings:
-# Configured for User Pages repository (mkc673.github.io) served at the root domain.
-baseurl: ""
-url: "https://mkc673.github.io"
+# Social Profiles
+twitter_username:   ""
+github_username:    mkc673
+facebook_username:  ""
+instagram_username: ""
+linkedin_username:  ""
 
-github_username: mkc673
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   ""
 
 # Build settings
-theme: minima
+markdown:           kramdown
+remote_theme:       StartBootstrap/startbootstrap-clean-blog-jekyll
+paginate:           5
+paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Exclude files from processing
 exclude:

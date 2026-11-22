@@ -1,13 +1,15 @@
 ---
 layout: post
 title: "Welcome to My Blog!"
+subtitle: "Getting started with Jekyll and the Clean Blog theme on GitHub Pages"
 date: 2026-11-21 21:00:00 -0500
+background: '/img/bg-post.jpg'
 categories: general
 ---
 
 Welcome to the first post on my new Jekyll site!
 
-This blog is powered by [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).
+This blog is powered by [Jekyll](https://jekyllrb.com/), styled with the [Clean Blog](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll) theme, and hosted on [GitHub Pages](https://pages.github.com/).
 
 ## Writing New Posts
 
@@ -23,7 +25,9 @@ Include the required YAML front matter at the top of the file:
 ---
 layout: post
 title: "Your Post Title"
+subtitle: "An optional subtitle for the post header"
 date: YYYY-MM-DD HH:MM:SS -0500
+background: '/img/bg-post.jpg'
 categories: [category1, category2]
 ---
 ```
