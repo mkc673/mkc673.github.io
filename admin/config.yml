@@ -1,0 +1,38 @@
+backend:
+  name: github
+  repo: mkc673/mkc673.github.io
+  branch: main
+
+# Enables editing local files directly when running `npx decap-server` on localhost
+local_backend: true
+
+media_folder: "img/posts"
+public_folder: "/img/posts"
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss ZZ" }
+      - { label: "Header Background Image", name: "background", widget: "image", default: "/img/bg-post.jpg", required: false }
+      - { label: "Categories", name: "categories", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "about"
+        label: "About Page"
+        file: "about.html"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string", required: false }
+          - { label: "Header Background Image", name: "background", widget: "image", default: "/img/bg-about.jpg", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
