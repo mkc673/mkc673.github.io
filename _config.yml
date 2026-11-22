@@ -1,0 +1,25 @@
+title: Matt's Blog
+author: mkc673
+email: ""
+description: >-
+  Personal blog and notes built with Jekyll and hosted on GitHub Pages.
+
+# GitHub Pages settings:
+# Configured for User Pages repository (mkc673.github.io) served at the root domain.
+baseurl: ""
+url: "https://mkc673.github.io"
+
+github_username: mkc673
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
